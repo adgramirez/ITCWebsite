@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Factorial, Sum, and Average</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+    <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">CS 1130</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Conversion.html">Conversion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ITC.html">Income Tax Calculator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="FSA.html">Factorial, Sum, and Average</a></li>
+                        <li class="nav-item"><a class="nav-link" href="SimplePayroll.html">Simple Payroll</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!--Heading-->
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <h1>&nbsp;</h1>
+                    <h2 class="section-heading text-uppercase">Factorial, Sum, and Average</h2>
+                    <h3 class="section-subheading text-muted">Assignment #3 - Factorial (While Loop), Sum (Do While Loop) and Average (For Loop) of First N Natural Numbers</h3>
+                </div>
+                <br>
+    <!--Factorial, Sum, and Average-->
+    <!-- factorial of N -->
+                <div class = "factorial">
+                    <h2>Factorial of N Numbers</h2>
+                    <p>
+                        <h>Input a value of N</h>
+                        <input id= "num">
+                        <button onclick="factorial()">Calculate</button>
+                        <p>
+                        The factorial of N is: <span id="fact"></span>
+                    </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- sum of N -->
+                <div class = "Sum">
+                    <h2>Sum of the First N Numbers</h2>
+                    <p>
+                        <label>Input a value of n</label>
+                        <input id="num1">
+                        <button onclick="sumMo()">Calculate</button>
+                    </p>
+                    <p>The sum is: <span id="sum"></span></p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!-- average of N -->
+                <div class="average">
+                    <h2>Average of the First N Numbers</h2>
+                    <p>
+                        <label>Input a value of n</label>
+                        <input id="num2">
+                        <button onclick="AverageN()">Calculate</button> 
+                        </p>
+                    <p>The average is: <span id="sum2"></span></p>
+                </div>
+            </div>
+        </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
